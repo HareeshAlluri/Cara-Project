@@ -3,127 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>Product</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./Assets/images/achit-img.png">
 </head>
 <body>
-    <!-- Header Starts Here -->
-    <header>
+     <!-- Header Starts Here -->
+     <header>
+
         <div class="logo">
-          <img src="./Assets/images/achit-img.png" alt="logo" />
+            <img src="./Assets/images/achit-img.png" alt="logo">
+            
+    
         </div>
-  
+
         <div class="navbar">
-          <ul type="none">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./shop.html">Shop</a></li>
-            <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <a href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
-          </ul>
+            <ul type="none" >
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <a href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+
+            </ul>
+
         </div>
-      </header>
-      <!-- Header Closes Here -->
-  
-      <div class="contactBanner">
-        <div class="contactBannerText">
-          <p>#let's_talk</p>
-          <br />
-          <pre>LEAVE A MESSAGE, We love to hear from you!</pre>
+    </header>
+    <!-- Header Closes Here -->
+
+    <section class="product">
+
+       <div class="shirt-images">
+        <div class="shirt20">
+
         </div>
-      </div>
-   
-
-      <section class="cartTable">
-
-        <table>
-
-            <tr>
-                <th>REMOVE</th>
-                <th>IMAGE</th>
-                <th>PRODUCT</th>
-                <th>PRICE</th>
-                <th>QUANTITY</th>
-                <th>SUBTOTAL</th>
-            </tr>
-            <tr>
-                <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
-                <td><img src="./Assets/images/products/f1.jpg" alt="shirt" height="100px" width="100px"></td>
-                <td>Cartoon Astronaut T-Shirts</td>
-                <td>₹2499</td>
-                <td><input type="number" ></td>
-                <td>₹2499</td>
-            </tr>
-            <tr>
-                <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
-                <td><img src="./Assets/images/products/f2.jpg" alt="shirt" height="100px" width="100px"></td>
-                <td>Cartoon Astronaut T-Shirts</td>
-                <td>₹2499</td>
-                <td><input type="number"></td>
-                <td>₹2499</td>
-            </tr>
-            <tr>
-                <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
-                <td><img src="./Assets/images/products/f3.jpg" alt="shirt" height="100px" width="100px"></td>
-                <td>Cartoon Astronaut T-Shirts</td>
-                <td>₹2499</td>
-                <td><input type="number"></td>
-                <td>₹2499</td>
-            </tr>
-
-
-        </table>
-
-
-
-      </section>
-
-      <section class="cartDeatils">
-
-        <div class="cartCoupon">
-          <h3>Apply Coupon</h3><br>
-          <input type="text" placeholder="Enter Your Coupon">
-          <button>Apply</button>
+        <div class="shirtScards">
+            <div class="shirtim"><img src="./Assets/images/products/f1.jpg" alt=""></div>
+            <div class="shirtim"><img src="./Assets/images/products/f2.jpg" alt=""></div>
+            <div class="shirtim"><img src="./Assets/images/products/f3.jpg" alt=""></div>
+            <div class="shirtim"><img src="./Assets/images/products/f4.jpg" alt=""></div>
         </div>
+       </div>
 
-        <div class="cartTotal">
-          <h3>Cart Total</h3> <br>
-          <table>
-            <tr>
-              <td>
-                Cart Subtotal
-              </td>
-              <td>
-                ₹7399
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Shipping
-              </td>
-              <td>
-                ₹2499
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <b>Total</b>
-              </td>
-              <td>
-                <b>₹7399</b>
-              </td>
-            </tr>
-          </table><br>
-          <button>Proceed to checkout</button>
+
+        <div class="productText">
+
+            <h5>Home/T-Shirt</h5><br><br>
+            <h2>Men's Fashion T-Shirt</h2><br><br>
+            <h2>₹2499</h2><br>
+            <select name="Selectsize" id="size">
+                <option value="Selectsize">Selectsize</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select><br><br>
+            <input type="number">
+            <button>Add To Cart</button><br><br>
+            <h3>Product Details</h3><br>
+            <p><pre>The Classic Cotton T-Shirt is a versatile and comfortable</pre>
+            <pre>wardrobe essintial suitable for both men and women. It is crafted </pre>
+            <pre>from high quality, 100% combined cotton fabric, ensuring a soft</pre><pre>and breathable feel against the skin. The T-Shirt features a</pre>
+            <pre>timeless design, making it perfect for various occasions and</pre>
+            <pre>everyday wear.</pre>
+            </p>
+
+            
+
+
         </div>
 
 
-      </section>
 
-      <section class="bgimg">
+
+    </section>
+
+    <section class="bgimg">
             
         <div class="signup">
             
@@ -241,5 +198,7 @@
     
     
     </footer>
+    
+    
 </body>
 </html>
